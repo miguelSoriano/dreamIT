@@ -1,0 +1,1812 @@
+body {
+  background-color: #ffffff;
+  border: 0;
+  font-family: 'OpenSans-Light', Arial, Helvetica;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  display: inline-block;
+  left: 10px;
+  position: relative;
+  top: 8px;
+}
+.logoImg {
+  height: 26px;
+  width: 93px;
+}
+#mainContainer {
+  background: #fff;
+  border-radius: 0;
+  height: 100%;
+  left: 0;
+  overflow: scroll;
+  position: relative;
+  top: 0;
+  width: 100%;
+  -moz-box-shadow: -3px 0 6px #4a5562;
+  -webkit-box-shadow: -3px 0 6px #4a5562;
+  box-shadow: -3px 0 6px #4a5562;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-transition: all 300ms;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+.noMobile {
+  display: none;
+}
+.noMobile .noMobIcon {
+  font-size: 5em;
+}
+.contenedor,
+.contenido {
+  position: relative;
+  overflow: hidden;
+}
+.slideOverlay {
+  background-color: #ffffff;
+  position: relative;
+  width: 100%;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.txtSlide {
+  height: 120px;
+  left: 50%;
+  margin: -60px 0 0 -125px;
+  position: absolute;
+  top: 50%;
+  width: 250px;
+  width: 300px;
+}
+.slideTxtSmall {
+  display: block;
+  font-size: 2em;
+  line-height: 2em;
+  margin-left: 5px;
+  width: 250px;
+}
+.right {
+  right: 21px;
+  position: relative;
+  text-align: right;
+}
+.slideTxtBig {
+  display: block;
+  font-size: 5em;
+  width: 250px;
+}
+.btnStart {
+  height: 80px;
+  left: 50%;
+  margin: -40px 0 0 -125px;
+  top: 50%;
+  width: 250px;
+  margin-top: 50%;
+  position: absolute;
+  text-align: center;
+  z-index: 9;
+}
+.btnStart .startText {
+  color: #000000;
+  display: block;
+  font-size: 1.1em;
+}
+#solutions {
+  margin-top: 0px;
+}
+.soluciones {
+  background-color: #06a7e2;
+  height: 280px;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  background-color: rgba(6, 167, 226, 0.7);
+}
+.soluciones .textBox {
+  margin-left: 10px;
+}
+.textBox {
+  margin: 0 auto;
+  position: relative;
+  width: 300px;
+  z-index: 3;
+}
+.titleSoluciones,
+.txtSoluciones {
+  position: relative;
+  top: -15px;
+}
+.team_bg {
+  z-index: 2;
+}
+.bgBlack {
+  background: #000000;
+}
+.bgBlue {
+  background: #06a7e2;
+}
+.bgWhite {
+  background: #ffffff;
+}
+.asiSomos {
+  display: block;
+  margin: 70px 0 0 20px;
+}
+.asiSomosTxt {
+  display: block;
+  margin: 10px 0 0 20px;
+  line-height: 1.5em;
+}
+.bubbleBig {
+  left: 50%;
+  margin: -200px 0 0 -200px;
+  top: 50%;
+  -webkit-border-radius: 200px;
+  -khtml-border-radius: 200px;
+  -moz-border-radius: 200px;
+  -ms-border-radius: 200px;
+  -o-border-radius: 200px;
+  border-radius: 200px;
+  height: 400px;
+  position: absolute;
+  width: 400px;
+  z-index: 1;
+}
+.consolida {
+  height: 250px;
+  left: 50%;
+  margin: -125px 0 0 -150px;
+  top: 50%;
+  width: 300px;
+  position: absolute;
+  text-align: center;
+}
+.btnTeam {
+  position: relative;
+  margin-top: 40px;
+}
+.contactForm {
+  height: 350px;
+  left: 50%;
+  margin: -175px 0 0 -150px;
+  top: 50%;
+  width: 300px;
+  position: absolute;
+}
+/* ===============================================================
+Integración del Swiper  |   http://www.idangero.us/sliders/swiper
+================================================================*/
+.swiper-container {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  z-index: 1;
+}
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  -webkit-transition-property: -webkit-transform, left, top;
+  -webkit-transition-duration: 0s;
+  -webkit-transform: translate3d(0px, 0, 0);
+  -webkit-transition-timing-function: ease;
+  -moz-transition-property: -moz-transform, left, top;
+  -moz-transition-duration: 0s;
+  -moz-transform: translate3d(0px, 0, 0);
+  -moz-transition-timing-function: ease;
+  -o-transition-property: -o-transform, left, top;
+  -o-transition-duration: 0s;
+  -o-transform: translate3d(0px, 0, 0);
+  -o-transition-timing-function: ease;
+  -o-transform: translate(0px, 0px);
+  -ms-transition-property: -ms-transform, left, top;
+  -ms-transition-duration: 0s;
+  -ms-transform: translate3d(0px, 0, 0);
+  -ms-transition-timing-function: ease;
+  transition-property: transform, left, top;
+  transition-duration: 0s;
+  transform: translate3d(0px, 0, 0);
+  transition-timing-function: ease;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.swiper-free-mode > .swiper-wrapper {
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-timing-function: ease-out;
+  -ms-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  margin: 0 auto;
+}
+/* IE10 Windows Phone 8 Fixes */
+.swiper-wp8-horizontal {
+  -ms-touch-action: pan-y;
+}
+.swiper-wp8-vertical {
+  -ms-touch-action: pan-x;
+}
+.swiper-container {
+  /* Specify Swiper's Size: */
+  width: 100%;
+  height: 880px;
+}
+.swiper-slide {
+  /* Specify Slides's Size:*/
+  height: 100%;
+  float: left;
+  background-color: black;
+  width: 100%;
+}
+.swiper-slide-active {
+  /* Specific active slide styling: */
+}
+.swiper-slide-visible {
+  /* Specific visible slide styling: */
+}
+/* ===============================================================
+Pagination Styles
+================================================================*/
+.swiper-pagination-switch {
+  /* Stylize pagination button: */
+}
+.swiper-active-switch {
+  /* Specific active button style: */
+}
+.swiper-visible-switch {
+  /* Specific visible button style: */
+}
+/* Menu */
+.btnMenu {
+  background: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  height: 36px;
+  left: 5px;
+  position: relative;
+  top: 5px;
+  width: 36px;
+}
+.btnMenu:before {
+  color: #06a7e2;
+  content: '\e614';
+  display: inline-block;
+  font-family: "dreamIcons";
+  font-size: 1.2em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: none;
+  width: 36px;
+}
+.btnMenu:hover {
+  background: #fff;
+}
+.btnMenu:hover:before {
+  color: #999;
+}
+.header {
+  background-color: #ffffff;
+  height: 3em;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  -moz-transition: all 300ms;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+.contentBox {
+  margin-top: 1.7em;
+  position: relative;
+}
+.dreamStart,
+.ethosStart,
+.talentStart {
+  position: fixed;
+  z-index: 0;
+}
+.intro {
+  height: 280px;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+.intro .textBox {
+  margin-left: 10px;
+}
+.introWhite {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.introBlack {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.btnIntro {
+  position: relative;
+  text-align: center;
+  z-index: 9;
+}
+.btnIntro .startText {
+  display: block;
+  font-size: 1.1em;
+}
+.contenido_fluid {
+  background-color: #ffffff;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.ethos {
+  margin-top: .5em;
+  text-align: center;
+}
+.methodBox {
+  vertical-align: top;
+  position: relative;
+}
+#leTalent {
+  padding-top: 3em;
+}
+.leInfo {
+  display: inline-block;
+  position: relative;
+  width: 60%;
+  margin-bottom: 1em;
+}
+.leName,
+.leTitle {
+  position: relative;
+  vertical-align: bottom;
+}
+.leName h3,
+.leTitle h3,
+.leName h5,
+.leTitle h5 {
+  margin: 5px;
+}
+.profileBox {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 1em;
+}
+.profileInfo {
+  position: relative;
+  margin-top: -1em;
+}
+.profilePic {
+  display: inline-block;
+  position: relative;
+  margin-right: 1em;
+  -webkit-border-radius: 50px;
+  -khtml-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+}
+.aAngel {
+  background-image: url("../../img/secciones/talento/aAngel.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  -moz-background-size: 100%;
+  -ms-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+}
+.eAngel {
+  background-image: url("../../img/secciones/talento/eAngel.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  -moz-background-size: 100%;
+  -ms-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+}
+.iArces {
+  background-image: url("../../img/secciones/talento/iArces.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  -moz-background-size: 100%;
+  -ms-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+}
+.yCisneros {
+  background-image: url("../../img/secciones/talento/yCisneros.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  -moz-background-size: 100%;
+  -ms-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+}
+.iDelarosa {
+  background-image: url("../../img/secciones/talento/iDelarosa.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  -moz-background-size: 100%;
+  -ms-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+}
+.aFlores {
+  background-image: url("../../img/secciones/talento/aFlores.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  -moz-background-size: 100%;
+  -ms-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+}
+.mGomez {
+  background-image: url("../../img/secciones/talento/mGomez.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  -moz-background-size: 100%;
+  -ms-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+}
+.fGonzalez {
+  background-image: url("../../img/secciones/talento/fGonzalez.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  -moz-background-size: 100%;
+  -ms-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+}
+.mLuna {
+  background-image: url("../../img/secciones/talento/mLuna.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  -moz-background-size: 100%;
+  -ms-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+}
+.eMaldonado {
+  background-image: url("../../img/secciones/talento/eMaldonado.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  -moz-background-size: 100%;
+  -ms-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+}
+.rMarcos {
+  background-image: url("../../img/secciones/talento/rMarcos.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  -moz-background-size: 100%;
+  -ms-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+}
+.jMoreno {
+  background-image: url("../../img/secciones/talento/jMoreno.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  -moz-background-size: 100%;
+  -ms-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+}
+.dOrtega {
+  background-image: url("../../img/secciones/talento/dOrtega.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  -moz-background-size: 100%;
+  -ms-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+}
+.mSoriano {
+  background-image: url("../../img/secciones/talento/mSoriano.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  -moz-background-size: 100%;
+  -ms-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+}
+.cVillavicencio {
+  background-image: url("../../img/secciones/talento/cVillavicencio.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  -moz-background-size: 100%;
+  -ms-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+}
+.fYanez {
+  background-image: url("../../img/secciones/talento/fYanez.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  -moz-background-size: 100%;
+  -ms-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+}
+.dZarate {
+  background-image: url("../../img/secciones/talento/dZarate.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  -moz-background-size: 100%;
+  -ms-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+}
+.noPic {
+  background-image: url("../../img/secciones/talento/noPic.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  -moz-background-size: 100%;
+  -ms-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+}
+.btn {
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 8px 40px;
+  font-family: 'OpenSans-Regular';
+  font-size: 1em;
+  color: #ffffff;
+  -webkit-transition: 0.3s;
+  -khtml-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.btnBlue {
+  background-color: #06a7e2;
+}
+.btnBlue:hover {
+  background-color: #ffffff;
+  color: #06a7e2;
+}
+.btnBlack {
+  background-color: #000000;
+}
+.btnBlack:hover {
+  background-color: #ffffff;
+  color: #06a7e2;
+}
+.hoverBlack:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+.scrollHS {
+  position: absolute;
+  margin: 290px 0 0 457px!important;
+  float: none !important;
+  display: block !important;
+}
+.scrollOW {
+  position: relative;
+  margin: 0px 0 0 457px!important;
+  float: none !important;
+  display: block !important;
+}
+.btnInicia {
+  padding-bottom: 10px;
+  -webkit-transition: 0.3s;
+  -khtml-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.btnInicia:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.btnDown {
+  float: right;
+  margin-top: 600px;
+  z-index: 9;
+  -webkit-transition: 0.3s;
+  -khtml-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.btnDown:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.btnPrev {
+  z-index: 9;
+  -webkit-border-radius: 23px;
+  -khtml-border-radius: 23px;
+  -moz-border-radius: 23px;
+  -ms-border-radius: 23px;
+  -o-border-radius: 23px;
+  border-radius: 23px;
+  height: 46px;
+  width: 46px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  -khtml-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  -ms-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  margin: 300px 0 0 0;
+  -webkit-transition: 0.5s;
+  -khtml-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.btnPrev:hover {
+  background-position: -177px -43px;
+}
+.btnNext {
+  z-index: 9;
+  -webkit-border-radius: 23px;
+  -khtml-border-radius: 23px;
+  -moz-border-radius: 23px;
+  -ms-border-radius: 23px;
+  -o-border-radius: 23px;
+  border-radius: 23px;
+  height: 46px;
+  width: 46px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  -khtml-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  -ms-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  margin: 300px 0 0 914px;
+  -webkit-transition: 0.5s;
+  -khtml-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.btnNext:hover {
+  background-position: -4px -43px;
+}
+.btnSlide {
+  -webkit-border-radius: 25px;
+  -khtml-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  color: #ffffff;
+  font-size: 40px;
+  background-color: #06a7e2;
+  -webkit-transition: 0.3s;
+  -khtml-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.btnSlide:hover {
+  background-color: #000000;
+}
+/* general style for the form */
+.nl-form {
+  width: 100%;
+  margin: 0 auto 0 auto;
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+.nl-form ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* normalize the input elements, make them look like everything else */
+.nl-form input,
+.nl-form select,
+.nl-form button {
+  border: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.nl-form input:focus {
+  outline: none;
+}
+/* custom field (drop-down, text element) styling  */
+.nl-field {
+  display: inline-block;
+  position: relative;
+}
+.nl-field.nl-field-open {
+  z-index: 10000;
+}
+/* the toggle is the visible part in the form */
+.nl-field-toggle,
+.nl-form input,
+.nl-form select {
+  line-height: inherit;
+  display: inline-block;
+  color: #06a7e2;
+  cursor: pointer;
+  border-bottom: 1px dashed #06a7e2;
+}
+/* drop-down list / text element */
+.nl-field ul {
+  position: absolute;
+  visibility: hidden;
+  background: #06a7e2;
+  left: -0.5em;
+  top: 50%;
+  font-size: 80%;
+  opacity: 0;
+  -webkit-transform: translateY(-40%) scale(0.9);
+  -moz-transform: translateY(-40%) scale(0.9);
+  transform: translateY(-40%) scale(0.9);
+  -webkit-transition: visibility 0s 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+  -moz-transition: visibility 0s 0.3s, opacity 0.3s, -moz-transform 0.3s;
+  transition: visibility 0s 0.3s, opacity 0.3s, transform 0.3s;
+}
+.nl-field.nl-field-open ul {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translateY(-50%) scale(1);
+  -moz-transform: translateY(-50%) scale(1);
+  transform: translateY(-50%) scale(1);
+  -webkit-transition: visibility 0s 0s, opacity 0.3s, -webkit-transform 0.3s;
+  -moz-transition: visibility 0s 0s, opacity 0.3s, -moz-transform 0.3s;
+  transition: visibility 0s 0s, opacity 0.3s, transform 0.3s;
+}
+.nl-field ul li {
+  color: #fff;
+  position: relative;
+}
+.nl-dd ul li {
+  padding: 0 1.5em 0 0.5em;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.nl-dd ul li.nl-dd-checked {
+  color: #000;
+}
+.no-touch .nl-dd ul li:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+.no-touch .nl-dd ul li:hover:active {
+  color: #478982;
+}
+/* icons for some elements */
+.nl-dd ul li.nl-dd-checked:before,
+.nl-submit:before,
+.nl-field-go:before {
+  font-family: 'nlicons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+.nl-dd ul li.nl-dd-checked:before {
+  content: "\e000";
+  position: absolute;
+  right: 1em;
+  font-size: 50%;
+  line-height: 3;
+}
+.nl-ti-text ul {
+  min-width: 8em;
+}
+.nl-ti-text ul li.nl-ti-input input {
+  width: 500px;
+  padding: 0.2em 2em 0.2em 0.5em;
+  border-bottom: none;
+  color: #fff;
+}
+.nl-form .nl-field-go {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.1);
+  width: 1.8em;
+  text-align: center;
+  color: transparent;
+}
+.nl-field-go:before {
+  content: "\e001";
+  font-size: 75%;
+  color: #fff;
+  width: 100%;
+  line-height: 2.5;
+  display: block;
+}
+/* custom placeholder color */
+input::-webkit-input-placeholder {
+  color: rgba(70, 70, 70, 0.5);
+}
+input:active::-webkit-input-placeholder,
+input:focus::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.2);
+}
+input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+input:active::-moz-placeholder,
+input:focus::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.2);
+}
+input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+input:active::-ms-input-placeholder,
+input:focus::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.2);
+}
+/* example field below text input */
+.nl-ti-text ul li.nl-ti-example {
+  font-size: 40%;
+  font-style: italic;
+  font-weight: 400;
+  padding: 0.4em 1em;
+  color: rgba(0, 0, 0, 0.2);
+  border-top: 1px dashed rgba(255, 255, 255, 0.7);
+}
+.nl-ti-text ul li.nl-ti-example em {
+  color: #ffffff;
+}
+/* submit button */
+.nl-submit-wrap {
+  margin-top: 0.4em;
+}
+.nl-form .nl-submit {
+  line-height: 3;
+  cursor: pointer;
+  position: relative;
+  background: #06a7e2;
+  color: #fff;
+  padding: 0 1em 0 1em;
+  font-size: .6em;
+  font-weight: bold;
+  -webkit-transition: 0.5s;
+  -khtml-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+.nl-form .nl-submit:hover,
+.nl-form .nl-submit:active {
+  background: #000000;
+}
+.no-touch .nl-form .nl-submit:hover:before {
+  background: #58a199;
+}
+/* overlay becomes visible when a field is opened */
+.nl-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  z-index: 9999;
+  visibility: hidden;
+  -webkit-transition: visibility 0s 0.3s, opacity 0.3s;
+  -moz-transition: visibility 0s 0.3s, opacity 0.3s;
+  transition: visibility 0s 0.3s, opacity 0.3s;
+}
+.nl-field.nl-field-open ~ .nl-overlay {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.error {
+  font-size: .5em;
+  color: red;
+}
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url('../fonts/opensans-light-webfont.eot');
+  src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/opensans-light-webfont.woff') format('woff'), url('../fonts/opensans-light-webfont.ttf') format('truetype'), url('../fonts/opensans-light-webfont.svg#opensanslight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url('../fonts/opensans-regular-webfont.eot');
+  src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/opensans-regular-webfont.woff') format('woff'), url('../fonts/opensans-regular-webfont.ttf') format('truetype'), url('../fonts/opensans-regular-webfont.svg#opensansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'dreamIcons';
+  src: url('../fonts/dreamit.eot');
+  src: url('../fonts/dreamit.eot?#iefix') format('embedded-opentype'), url('../fonts/dreamit.woff') format('woff'), url('../fonts/dreamit.ttf') format('truetype'), url('../fonts/dreamit.svg#opensansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'dreamIcons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-down:before {
+  content: "\e600";
+}
+.icon-left:before {
+  content: "\e601";
+}
+.icon-right:before {
+  content: "\e602";
+}
+.icon-up:before {
+  content: "\e603";
+}
+.icon-dream:before {
+  content: "\e604";
+}
+.icon-alarm:before {
+  content: "\e605";
+}
+.icon-android:before {
+  content: "\e606";
+}
+.icon-apple:before {
+  content: "\e607";
+}
+.icon-cloud:before {
+  content: "\e608";
+}
+.icon-cloudUp:before {
+  content: "\e609";
+}
+.icon-compass:before {
+  content: "\e60a";
+}
+.icon-fb:before {
+  content: "\e60b";
+}
+.icon-gear:before {
+  content: "\e60c";
+}
+.icon-idea:before {
+  content: "\e60d";
+}
+.icon-insta:before {
+  content: "\e60e";
+}
+.icon-ipad:before {
+  content: "\e60f";
+}
+.icon-laptop:before {
+  content: "\e610";
+}
+.icon-like:before {
+  content: "\e611";
+}
+.icon-linkedin:before {
+  content: "\e612";
+}
+.icon-macOk:before {
+  content: "\e613";
+}
+.icon-menu:before {
+  content: "\e614";
+}
+.icon-smartphone:before {
+  content: "\e615";
+}
+.icon-tool:before {
+  content: "\e616";
+}
+.icon-tw:before {
+  content: "\e617";
+}
+.icon-warn:before {
+  content: "\e618";
+}
+.icon-window:before {
+  content: "\e619";
+}
+.icon-windows:before {
+  content: "\e61a";
+}
+.icon-world:before {
+  content: "\e61b";
+}
+.icon-youTube:before {
+  content: "\e61c";
+}
+.icon-code:before {
+  content: "\e61d";
+}
+body {
+  font-family: 'OpenSans-Light';
+  font-size: 0.9em;
+  line-height: 1.1340000000000001em;
+}
+h1 {
+  font-family: 'OpenSans-Light';
+  font-size: 3em;
+  font-weight: 400;
+  line-height: auto;
+}
+h2 {
+  font-family: 'OpenSans-Light';
+  font-size: 2.3em;
+  font-weight: 400;
+  line-height: auto;
+}
+h3 {
+  font-family: 'OpenSans-Light';
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+h4 {
+  font-family: 'OpenSans-Light';
+  font-size: 1.3em;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+h5 {
+  font-family: 'OpenSans-Light';
+  font-size: 1.1em;
+  font-weight: 400;
+  line-height: 18px;
+}
+p {
+  font-family: 'OpenSans-Light';
+  font-size: 1em;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.absolute {
+  position: absolute;
+}
+.black {
+  color: #000000;
+}
+.blue {
+  color: #06a7e2;
+}
+.caps {
+  text-transform: uppercase;
+}
+.center {
+  text-align: center;
+}
+.grey {
+  color: #979797;
+}
+.leBold {
+  font-weight: bolder;
+}
+.left {
+  text-align: left !important;
+}
+.leItaliani {
+  font-style: italic;
+}
+.white {
+  color: #ffffff;
+}
+.middle {
+  margin: 0 auto;
+}
+@media only screen and (min-width: 320px) {
+  .btnIntro {
+    margin-top: 2em;
+  }
+  .btnMethod {
+    text-align: center;
+    margin: 10% 0 1em 0;
+  }
+  .contenido,
+  .slideOverlay,
+  .contenido01,
+  .contenido02,
+  .contenido03,
+  .soluciones_bg,
+  .team_bg,
+  .dreamStart,
+  .ethosStart,
+  .talentStart {
+    width: 100%;
+    height: 480px;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .imageHead {
+    width: 100%;
+    height: 14em;
+    display: block;
+  }
+  .soluciones,
+  .intro {
+    margin-top: 200px;
+  }
+  .contenido01 {
+    background-image: url("../../img/home/slide1_p.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .contenido02 {
+    background-image: url("../../img/home/slide2_p.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .contenido03 {
+    background-image: url("../../img/home/slide3_p.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .soluciones_bg {
+    background-image: url("../../img/home/solutions_p.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .team_bg {
+    background-image: url("../../img/home/team_p.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .dreamStart {
+    background-image: url("../../img/secciones/dream/dream_p.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .pOne {
+    background-image: url("../../img/secciones/dream/process01_p.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .pTwo {
+    background-image: url("../../img/secciones/dream/process02_p.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .pThree {
+    background-image: url("../../img/secciones/dream/process03_p.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .pFour {
+    background-image: url("../../img/secciones/dream/process04_p.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .pFive {
+    background-image: url("../../img/secciones/dream/process05_p.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .ethosStart {
+    background-image: url("../../img/secciones/ethos/ethosIntro_p.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .vOne {
+    background-image: url("../../img/secciones/ethos/values01_p.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .vTwo {
+    background-image: url("../../img/secciones/ethos/values02_p.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .vThree {
+    background-image: url("../../img/secciones/ethos/values03_p.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .talentStart {
+    background-image: url("../../img/secciones/talento/talento_p.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+}
+@media only screen and (min-width: 320px) and (min-height: 540px) {
+  .contenido,
+  .slideOverlay,
+  .contenido01,
+  .contenido02,
+  .contenido03,
+  .soluciones_bg,
+  .team_bg,
+  .dreamStart,
+  .ethosStart,
+  .talentStart {
+    width: 100%;
+    height: 568px;
+  }
+  .contenido01,
+  .contenido02,
+  .contenido03,
+  .dreamStart,
+  .ethosStart,
+  .pOne,
+  .pTwo,
+  .pThree,
+  .pFour,
+  .pFive,
+  .soluciones_bg,
+  .team_bg,
+  .vOne,
+  .vTwo,
+  .vThree {
+    -webkit-background-size: 400px;
+    -khtml-background-size: 400px;
+    -moz-background-size: 400px;
+    -ms-background-size: 400px;
+    -o-background-size: 400px;
+    background-size: 400px;
+  }
+  .imageHead {
+    height: 20em;
+  }
+  .soluciones,
+  .intro {
+    margin-top: 288px;
+  }
+}
+@media only screen and (min-width: 360px) and (min-height: 640px) {
+  .contenido,
+  .slideOverlay,
+  .contenido01,
+  .contenido02,
+  .contenido03,
+  .soluciones_bg,
+  .team_bg,
+  .dreamStart,
+  .ethosStart,
+  .talentStart {
+    width: 100%;
+    height: 640px;
+  }
+  .contenido01,
+  .contenido02,
+  .contenido03,
+  .dreamStart,
+  .ethosStart,
+  .pOne,
+  .pTwo,
+  .pThree,
+  .pFour,
+  .pFive,
+  .soluciones_bg,
+  .talentStart,
+  .team_bg,
+  .vOne,
+  .vTwo,
+  .vThree {
+    -webkit-background-size: 430px;
+    -khtml-background-size: 430px;
+    -moz-background-size: 430px;
+    -ms-background-size: 430px;
+    -o-background-size: 430px;
+    background-size: 430px;
+  }
+  .soluciones,
+  .intro {
+    margin-top: 360px;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .btnMethod {
+    text-align: right;
+    margin: 5% 1em 3% 0;
+  }
+  .imageHead {
+    display: inline-block;
+    width: 50%;
+    height: 320px;
+  }
+  .methodBox {
+    display: inline-block;
+    margin: 0 .7em 0 .7em;
+    padding-top: 2em;
+    width: 44%;
+  }
+  .pullLeft {
+    float: left;
+    text-align: left;
+  }
+  .pullRight {
+    float: right;
+  }
+  .contenido,
+  .slideOverlay,
+  .contenido01,
+  .contenido02,
+  .contenido03,
+  .soluciones_bg,
+  .team_bg,
+  .dreamStart,
+  .ethosStart,
+  .talentStart {
+    width: 100%;
+    height: 320px;
+  }
+  .btnStart {
+    margin-top: 20%;
+  }
+  .contactForm {
+    height: 250px;
+    left: 50%;
+    margin: -125px 0 0 -225px;
+    position: absolute;
+    top: 50%;
+    width: 450px;
+  }
+  .soluciones,
+  .intro {
+    height: 100%!important;
+    margin-top: 0;
+    position: absolute;
+    width: 100%;
+  }
+  .soluciones .textBox,
+  .intro .textBox {
+    margin-top: 10%;
+    height: 200px;
+    left: 50%;
+    margin: -100px 0 0 -200px;
+    position: absolute;
+    top: 50%;
+    width: 400px;
+  }
+  .txtAsiSomos .textBox {
+    width: 90%!important;
+    height: 360px;
+    left: 50%;
+    margin: -180px 0 0 -240px;
+    position: absolute;
+    top: 50%;
+    width: 480px;
+  }
+  .txtAsiSomos .asiSomosTxt {
+    margin: -10px 0 0 20px !important;
+  }
+  .contenido01 {
+    background-image: url("../../img/home/slide1_l.jpg");
+    background-position: top top;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .contenido02 {
+    background-image: url("../../img/home/slide2_l.jpg");
+    background-position: top top;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .contenido03 {
+    background-image: url("../../img/home/slide3_l.jpg");
+    background-position: top top;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .soluciones_bg {
+    background-image: url("../../img/home/solutions_l.jpg");
+    background-position: top top;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .team_bg {
+    background-image: url("../../img/home/team_l.jpg");
+    background-position: top top;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .knowHow {
+    text-align: center;
+  }
+  .dreamStart {
+    background-image: url("../../img/secciones/dream/dream_l.jpg");
+    background-position: top top;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .pOne {
+    background-image: url("../../img/secciones/dream/process01_l.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .pTwo {
+    background-image: url("../../img/secciones/dream/process02_l.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .pThree {
+    background-image: url("../../img/secciones/dream/process03_l.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .pFour {
+    background-image: url("../../img/secciones/dream/process04_l.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .pFive {
+    background-image: url("../../img/secciones/dream/process05_l.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .ethosStart {
+    background-image: url("../../img/secciones/ethos/ethosIntro_l.jpg");
+    background-position: top top;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .vOne {
+    background-image: url("../../img/secciones/ethos/values01_l.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .vTwo {
+    background-image: url("../../img/secciones/ethos/values02_l.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .vThree {
+    background-image: url("../../img/secciones/ethos/values03_l.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .profileBox {
+    width: 90%;
+  }
+  .talentStart {
+    background-image: url("../../img/secciones/talento/talento_l.jpg");
+    background-position: top top;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+}
+@media only screen and (min-width: 568px) {
+  .btnStart {
+    margin-top: 15%;
+  }
+  .contenido,
+  .slideOverlay,
+  .contenido01,
+  .contenido02,
+  .contenido03,
+  .soluciones_bg,
+  .team_bg,
+  .dreamStart,
+  .ethosStart,
+  .talentStart {
+    width: 100%;
+    height: 320px;
+  }
+  .txtAsiSomos .textBox {
+    width: 90%!important;
+    height: 360px;
+    left: 50%;
+    margin: -180px 0 0 -250px;
+    position: absolute;
+    top: 50%;
+    width: 500px;
+  }
+}
+@media only screen and (min-width: 568px) {
+  .contenido,
+  .slideOverlay,
+  .contenido01,
+  .contenido02,
+  .contenido03,
+  .soluciones_bg,
+  .team_bg,
+  .dreamStart,
+  .ethosStart,
+  .talentStart {
+    width: 100%;
+    height: 360px;
+  }
+  .imageHead {
+    height: 360px;
+  }
+}
+@media only screen and (min-width: 645px) {
+  .icon-tool {
+    font-size: 2em;
+  }
+  .noMobile {
+    color: #06a7e2;
+    display: block;
+    line-height: 3em;
+    text-align: center;
+    height: 280px;
+    left: 50%;
+    margin: -140px 0 0 -400px;
+    position: absolute;
+    top: 50%;
+    width: 800px;
+  }
+  .header,
+  nav#menu,
+  #mainContainer {
+    display: none;
+  }
+}

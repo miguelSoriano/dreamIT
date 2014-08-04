@@ -1,0 +1,302 @@
+//:::::::::::::::::::://
+//      Portrait      //
+//:::::::::::::::::::://
+
+@media only screen and (min-width: 320px) {
+
+	//Generales
+	
+	.btnIntro{
+		margin-top: 2em;
+	}
+	.btnMethod{
+		text-align: center;
+		margin: 10% 0 1em 0;
+	}
+
+	.contenido,.slideOverlay, .contenido01, .contenido02, .contenido03, 
+	.soluciones_bg, .team_bg, .dreamStart, .ethosStart, .talentStart{
+		.iphone4_Portrait();
+	}
+	.imageHead{
+		width: 100%;
+		height: 14em;
+		display: block;
+	}
+	.soluciones, .intro{
+		margin-top: 200px;
+	}
+	//Home
+
+	.contenido01{
+		.portraitBG(@HOME-slide1);
+	}
+	.contenido02{
+		.portraitBG(@HOME-slide2);
+	}
+	.contenido03{
+		.portraitBG(@HOME-slide3);
+	}
+	.soluciones_bg{
+		.portraitBG(@HOME-l2);
+	}
+	.team_bg{
+		.portraitBG(@HOME-l3);
+	}
+
+	// Dream
+
+	.dreamStart{
+		.portraitBG(@dreamStart);
+	}
+	.pOne{
+		.portraitBG(@method1);
+	}
+	.pTwo{
+		.portraitBG(@method2);
+	}
+	.pThree{
+		.portraitBG(@method3);
+	}
+	.pFour{
+		.portraitBG(@method4);
+	}
+	.pFive{
+		.portraitBG(@method5);
+	}
+
+	// ETHOS
+	.ethosStart{
+		.portraitBG(@ethosStart);
+	}
+	.vOne{
+		.headPortrait(@value1);
+	}
+	.vTwo{
+		.headPortrait(@value2);
+	}
+	.vThree{
+		.headPortrait(@value3);
+	}
+
+	//Talento
+	.talentStart{
+		.portraitBG(@talentStart);
+	}
+}
+
+//Portrait iphone 5
+@media only screen and (min-width: 320px) and (min-height:540px) {
+	.contenido,.slideOverlay, .contenido01, .contenido02, .contenido03, 
+	.soluciones_bg, .team_bg, .dreamStart, .ethosStart, .talentStart{
+		.iphone5_Portrait();
+	}
+	.contenido01, .contenido02, .contenido03, .dreamStart, 
+	.ethosStart, .pOne, .pTwo, .pThree, .pFour, .pFive,
+	.soluciones_bg, .team_bg, .vOne, .vTwo, .vThree{
+		.background-size(400px);
+	}
+	.imageHead{
+		height: 20em;
+	}
+	.soluciones, .intro{
+		margin-top: 288px;
+	}
+}
+
+ //Portrait Galaxy
+@media only screen and (min-width: 360px) and (min-height:640px) {
+	.contenido,.slideOverlay, .contenido01, .contenido02, .contenido03, 
+	.soluciones_bg, .team_bg, .dreamStart, .ethosStart, .talentStart{
+		.samsung_Portrait();
+	}
+	.contenido01, .contenido02, .contenido03, .dreamStart, 
+	.ethosStart, .pOne, .pTwo, .pThree, .pFour, .pFive,
+	.soluciones_bg, .talentStart, .team_bg, .vOne, .vTwo, .vThree{
+		.background-size(430px);
+	}
+	
+	.soluciones, .intro{
+		margin-top: 360px;
+	}
+}
+
+//:::::::::::::::::::://
+//     Landscape      //
+//:::::::::::::::::::://
+
+@media only screen and (min-width: 480px){
+
+	//Generales
+	.btnIntro{
+		//top: 35%;
+	}
+	.btnMethod{
+		text-align: right;
+		margin: 5% 1em 3% 0;
+	}
+	.imageHead{
+		display: inline-block;
+		width: 50%;	
+		height: 320px;		
+	}
+	.methodBox{
+		display: inline-block;
+		margin: 0 .7em 0 .7em;
+		padding-top: 2em;
+		width: 44%;
+	}
+	.pullLeft{
+		float: left;
+		text-align: left;
+	}
+	.pullRight{
+		float: right;
+	}
+
+	.contenido,.slideOverlay, .contenido01, .contenido02, .contenido03, 
+	.soluciones_bg, .team_bg, .dreamStart, .ethosStart, .talentStart{
+		.iphone4_Landscape();
+	}
+	
+	// HOME
+	
+	// estilos
+	.btnStart{
+		margin-top: 20%;
+	}
+	.contactForm{
+		.center-position(250px, 450px);
+	}
+	.soluciones, .intro{
+		height: 100%!important;
+		margin-top: 0;
+		position: absolute;
+		width: 100%;
+		.textBox{
+			margin-top: 10%;
+			.center-position(200px, 400px);
+		}
+	}
+	.txtAsiSomos{
+		.textBox{
+			width: 90%!important;
+			.center-position(360px, 480px);
+		}
+		.asiSomosTxt{
+			margin: -10px 0 0 20px!important;
+		}
+	}
+	//fondos
+	.contenido01{
+		.landscapeBG(@HOME-slide1);
+	}
+	.contenido02{
+		.landscapeBG(@HOME-slide2);
+	}
+	.contenido03{
+		.landscapeBG(@HOME-slide3);
+	}
+	.soluciones_bg{
+		.landscapeBG(@HOME-l2);
+	}
+	.team_bg{
+		.landscapeBG(@HOME-l3);
+	}
+	
+
+	// Dream
+	
+	//estilos
+	.knowHow{
+		text-align: center;
+	}
+	//fondos
+	.dreamStart{
+		.landscapeBG(@dreamStart);
+	}
+	.pOne{
+		.headLandscape(@method1);
+	}
+	.pTwo{
+		.headLandscape(@method2);
+	}
+	.pThree{
+		.headLandscape(@method3);
+	}
+	.pFour{
+		.headLandscape(@method4);
+	}
+	.pFive{
+		.headLandscape(@method5);
+	}
+
+	// ETHOS
+	.ethosStart{
+		.landscapeBG(@ethosStart);
+	}
+	.vOne{
+		.headLandscape(@value1);
+	}
+	.vTwo{
+		.headLandscape(@value2);
+	}
+	.vThree{
+		.headLandscape(@value3);
+	}
+
+	//Talento
+	.profileBox{
+		width: 90%;
+	}
+	.talentStart{
+		.landscapeBG(@talentStart);
+	}
+
+}
+
+//Landscape iPhone 5
+@media only screen and (min-width: 568px){
+	.btnStart{
+		margin-top: 15%;
+	}
+	.contenido,.slideOverlay, .contenido01, .contenido02, .contenido03, 
+	.soluciones_bg, .team_bg, .dreamStart, .ethosStart, .talentStart{
+		.iphone5_Landscape();
+	}
+	.txtAsiSomos{
+		.textBox{
+			width: 90%!important;
+			.center-position(360px, 500px);
+		}
+	}
+}
+//Landscape Galaxy
+@media only screen and (min-width: 568px){
+	
+	.contenido,.slideOverlay, .contenido01, .contenido02, .contenido03, 
+	.soluciones_bg, .team_bg, .dreamStart, .ethosStart, .talentStart{
+		.samsung_Landscape();
+	}
+
+	.imageHead{
+		height: 360px;
+	}
+
+}
+
+@media only screen and (min-width: 645px){
+		.icon-tool{
+			font-size: 2em;
+		}
+		.noMobile{	
+			color: @blue;
+			display: block;
+			line-height: 3em;
+			text-align: center;
+			.center-position(280px, 800px);
+		}
+		.header, nav#menu, #mainContainer{
+			display: none;
+		}
+	}

@@ -1,0 +1,89 @@
+.fromRight{
+	from{
+		left:900px;
+		opacity: 0;
+	} to {
+		left:0;
+		opacity:1;
+	}
+}
+
+@-webkit-keyframes mueveDerecha {.fromRight;}
+@-moz-keyframes mueveDerecha {.fromRight;}
+@-ms-keyframes mueveDerecha {.fromRight;}
+@-o-keyframes mueveDerecha {.fromRight;}
+@keyframes mueveDerecha {.fromRight;}
+
+//
+
+.leAparece{
+	from{
+		opacity: 0;
+	} to {
+		opacity:1;
+	}
+}
+
+@-webkit-keyframes aparece {.leAparece;}
+@-moz-keyframes aparece {.leAparece;}
+@-ms-keyframes aparece {.leAparece;}
+@-o-keyframes aparece {.leAparece;}
+@keyframes aparece {.leAparece;}
+
+.animExperiment{
+	.animation-name(mueveDerecha);
+	.animation-duration(1s);
+	.animation-iteration-count(1);
+	.animation-delay(0s);
+}
+
+.fadeIn{
+	.animation-name(aparece);
+	.animation-duration(1s);
+	.animation-iteration-count(1);
+	.animation-delay(0s);
+}
+
+/* animation delay classes */
+
+.delay100 {
+	-webkit-animation-delay: .1s;
+	-moz-animation-delay: .1s;
+	animation-delay: .1s;
+}
+.delay180 {
+	-webkit-animation-delay: .180s;
+	-moz-animation-delay: .180s;
+	animation-delay: .180s;
+}
+.delay200 {
+	-webkit-animation-delay: .2s;
+	-moz-animation-delay: .2s;
+	animation-delay: .2s;
+}
+.delay300 {
+	-webkit-animation-delay: .3s;
+	-moz-animation-delay: .3s;
+	animation-delay: .3s;
+}
+.delay400 {
+	-webkit-animation-delay: .4s;
+	-moz-animation-delay: .4s;
+	animation-delay: .4s;
+}
+.delay500 {
+	-webkit-animation-delay: .5s;
+	-moz-animation-delay: .5s;
+	animation-delay: .5s;
+}
+.delay700 {
+	-webkit-animation-delay: .7s;
+	-moz-animation-delay: .7s;
+	animation-delay: .7s;
+}
+.delay1000 {
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	animation-delay: 1s;
+}
+

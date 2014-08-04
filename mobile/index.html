@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+	<title>Dream-IT Mobile</title>
+	<!--css-->
+	<link rel="stylesheet" type="text/css" href="include/css/styles.css">
+	<link rel="stylesheet" type="text/css" href="include/css/jquery.mmenu.css">
+	<!--jquery & js-->
+	<script type="text/javascript" src="include/js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="include/js/idangerous.swiper-2.4.min.js"></script>
+	<script type="text/javascript" src="include/js/jquery.mmenu.min.js"></script>
+	
+</head>
+<body>
+	<!-- pantalla para no mobiles -->
+	<div class="noMobile"><span class="noMobIcon icon-tool blue"></span><h1>Página exclu-si-va para smartphones. <br>No luce cool en desktop, ni en aiPad. :(</h1><p> Tip: Entra desde tu teléfono. De nada.</p></div>
+	<!-- header y menú -->
+	<div class="header">
+		<a class="btnMenu" href="#menu">
+			<span></span>
+		</a>
+		<div class="logo"><a href="index.html"><img class="logoImg" src="img/logo.svg" alt="dream-it logo"></a></div>
+	</div>
+	<!-- Contenedor Principal -->
+	<div id="mainContainer">
+		<!-- Swiper -->
+		<div class="contenido" id="#home">
+			<div class="btnStart btnScroll">
+				
+					<span class="icon-down blue"></span>
+					<span class="startText"><a class="black" href="#solutions">Desliza para comenzar</a></span>
+						
+			</div>
+			<!-- sweeper Home -->
+			<div id="jom" class="slideContainer" >
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+
+				        <!--Primer Slide-->
+						<div class="swiper-slide">
+							<div class="contenido01">
+								<div class="slideOverlay">
+									<div class="txtSlide">
+										<span class="slideTxtSmall">WE</span>
+										<span class="slideTxtBig">DREAM</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide"> 
+							<div class="contenido02">
+								<div class="slideOverlay">
+									<div class="txtSlide">
+										<span class="slideTxtSmall center">WE</span>
+										<span class="slideTxtBig">CREATE</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide"> 
+							<div class="contenido03">
+								<div class="slideOverlay">
+									<div class="txtSlide">
+										<span class="slideTxtSmall right">WE</span>
+										<span class="slideTxtBig center">ADAPT</span>
+									</div>
+								</div>
+							</div>
+				    	</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- divs contenido -->
+		<div class="contenido" id="solutions">
+			<div class="soluciones">
+				<div class="textBox">
+					<div class="miniTitle"><h3 class="caps white">Entregamos</h3></div>
+					<div class="titleSoluciones"><h1 class="caps white">Soluciones</h1></div>
+					<p class="white txtSoluciones">Entendemos las necesidades de nuestros clientes, analizamos y proponemos opciones de tecnología que cumplan con los resultados esperados. Desarrollamos soluciones hechas a la medida, y también integramos herramientas de empresas líderes de la industria. Cada cliente es diferente y requiere un control y dirección de proyecto que se ajuste a la cultura de la empresa y su gobierno corporativo.</p>
+				</div>
+			</div>
+			<div class="soluciones_bg"></div>
+		</div>
+
+		<div class="contenido bgWhite" id="asiSomos">
+			<div class="txtAsiSomos">
+				<div class="textBox absolute">
+				<div class="asiSomos">
+					<h1>#asiSomos</h1>
+				</div>
+				<div class="asiSomosTxt blue">
+					<h3>“Me gusta la gente que vibra,
+						que no hay que empujarla, 
+						que no hay que decirle que haga las cosas, 
+						sino que sabe lo que hay que hacer 
+						y que lo hace. 
+						La gente que cultiva sus sueños 
+						hasta que esos sueños 
+						se apoderan de su propia realidad”.
+					</h3>
+				</div>	
+				<h3 class="asiSomosTxt">-Mario Benedetti</h3>
+			</div>
+			</div>
+		</div>
+		<div class="contenido">
+			<div class="textBox consolida">
+				<div class="caps">
+					<h1>Consolidar</h1>
+				</div>
+				
+				<p>Tomamos las lecciones aprendidas de haber desarrollado proyectos en múltiples industrias, añadimos el alto perfil de los miembros del equipo, analizamos con cuidado los requisitos del cliente, y ejecutamos con excelencia para entregar una solución que agregue valor al negocio.</p>
+				
+				<div class="btnTeam"><a href="talento.html" class="btn btnBlack">&#60; nuestroEquipo&#47;&#62;</a></div>
+			</div>
+
+			<div class="bubbleBig bgWhite"></div>
+			<div class="team_bg"></div>
+		</div>
+		<div class="contenido bgWhite">
+			<div class="textBox consolida">
+				<div class="blue">
+					<h1>#filosofía</h1>
+				</div>
+				
+				<h3>“No es solamente por lo que hacemos, sino también por lo que no hacemos, que somos responsables.”</h3>
+				
+				<div class="btnTeam"><a href="ethos.html" class="btn btnBlue">&#60; nuestrosValores&#47;&#62;</a></div>
+			</div>
+		</div>
+		<div class="contenido bgWhite" id="contacto">
+			<div class="textBox contactForm">
+				<form id="contactUs" class="nl-form" action="">
+					¡Muy buen día! <br>¿Por qué no
+					<select id ="necesitamos">
+						<option value="colaborar">colaboramos en</option>
+						<option value="asesoria">nos asesoran en</option>
+						<option value="compartir">compartimos</option>
+						<option value="desarrollar">desarrollamos</option>
+					</select> un proyecto? <br> Tenemos 
+					<select id = "tenemos">
+						<option value="oportunidades">oportunidades</option>
+						<option value="iniciativas">iniciativas</option>
+						<option value="necesidades">necesidades</option>
+					</select>
+					que nos gustaría compartir con ustedes.
+					<br />Pueden escribir a: 
+
+					<input id="email" name="email" type="text" value="" placeholder="yo@micorreo.com"/>
+
+					<label class="error" for="email" id="email_error">*Necesitamos tu email :)</label>
+
+					<br/>
+
+					<input id="nombre" name="nombre" type="text" value="" placeholder="Mi nombre"/>
+
+					<label class="error" for="nombre" id="name_error">*Necesitamos tu nombre :)</label>
+
+					<div class="nl-submit-wrap">
+						<button type="submit" name="submit" class="nl-submit" id="sendBtn">Enviar</button>
+					</div>
+
+					<div class="nl-overlay"></div>
+				</form>
+			</div>
+		</div>
+	<!-- fin contenedor principal -->
+	</div>
+
+	<!-- Navigation -->
+	<nav id="menu">
+		<ul>
+			<li><a href="index.html">{ .home }</a></li>
+			<li class="sep"><a href="talento.html">{ .talento }</a></li>
+			<li class="sep"><a href="dream.html">{ .quéHacemos }</a></li>
+			<li class="sep"><a href="ethos.html">{ .ethos }</a></li>
+			<li class="sep btnScroll"><a href="index.html#contacto">{ .contacto }</a></li>
+		</ul>
+	</nav>
+
+	<script type="text/javascript" src="include/js/scripts.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// Iniciar Swiper
+			swipeHome('.swiper-container');
+		});	
+	</script>
+</body>
+</html>
